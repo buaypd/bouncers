@@ -110,6 +110,7 @@ int main() {
     //bn::vector<bn::sprite_ptr, MAX_BOUNCERS> sprites = {};
     //bn::vector<bn::fixed, MAX_BOUNCERS> x_speeds = {};
      bn::core::init();
+    bn::backdrop::set_color( bn::color(6,18,20));
      bn::random rng;
     bn::vector<Bouncer, MAX_BOUNCERS> bouncers = {};
 
